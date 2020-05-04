@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+body {
+	font-family: Montserrat;
+	margin: 0;
+}
+h1 {
+	font-size: 2em;
+	font-family: Montserrat;
+	font-weight: 400;
+	margin-bottom: 0;
+	text-align: center;
+}
+h2 {
+	margin: 0;
+	color: #4caf50;
+	font-size: 1.5em;
+	font-weight: 600;
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+button {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+	margin-bottom: 2em;
+	margin-left: 3.5em;
+	width: 15vw;
+	height: 2.5em;
+	font-weight: 400;
+	font-size: 1em;
+}
+#container {
+	display: flex;
+	margin-top: 2em;
+	margin-left: 10em;
+}
+.form {
+	display: block;
+	margin-bottom: 2em;
+	margin-left: 4em;
+	width: 15vw;
+	height: 2em;
+}
+
+input::placeholder {
+	padding-left: 8px;
+}
+
+#list {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+#card1 {
+	border: none;
+	width: 25vw;
+	-webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+	outline: none;
+}
+
+#card2 {
+	margin-left: 3em;
+}
+table {
+	border-collapse: collapse;
+	width: 45vw;
+}
+
+th,
+td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+th {
+	background-color: #4caf50;
+	color: white;
+}
